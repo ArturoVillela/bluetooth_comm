@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cliente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="pagatodo.com.segundapantallamix.Cliente">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_msg"
+        android:layout_gravity="center"
+        android:textSize="13sp"
+        android:layout_marginBottom="30sp"
+        android:text=" Client "/>
+
+    <Button
+        android:text="Find Device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_find"
+        android:onClick="btnFindClicked" />
+
+    <Button
+        android:text="Sync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sync"
+        android:enabled="false"
+        android:onClick="btnSyncClicked" />
+
+
+</LinearLayout>
